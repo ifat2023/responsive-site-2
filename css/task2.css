@@ -1,0 +1,167 @@
+
+
+.first_container{
+    background-image: url(../img/טיפה-על-עלה2.jpg) ;
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.first_container p{
+    width: 350px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin:20px auto 10px auto;
+    font-size: 15px ;
+    text-align: left;
+}
+
+
+.box-container {
+    height: 300px;
+    width: 280px;
+    color: black;
+    background-color:white;
+    text-align: left;
+    padding-top: 10px;
+    margin: 10px auto;
+    
+  }
+
+  h1{
+    font-size:20px ;
+    
+  }
+
+  .second_title {
+    font-size: 16px;
+    text-align: left; 
+}
+
+
+  .btn {
+    background-color:green;
+    color: white;
+    margin-top:10px;
+ }
+
+ .small-title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+ }
+
+ .image {
+  border-radius: 50%;
+  
+ }
+
+ #second_section {
+  background-color: #f0e8e5;
+  text-align: center;
+ }
+
+ .third_section {
+  text-align: center;
+ }
+
+ footer {
+  margin-top: 30px;
+ }
+  .card1 {
+      margin-top: 20px;
+     }
+     .card2 {
+      margin-top: 20px;
+     }
+     
+  
+     #wl {
+      border-top: 3px solid gray ;
+     }
+
+     #hl {
+      border-left: 3px solid black;
+    
+     }
+
+     .navbar .bg-body-tertiary .navbar-brand {
+      background-color: black;
+      color: white;
+      
+     
+     }
+
+     .footerline2 .float-right {
+      
+      float:right;
+      justify-content: right;
+
+     }
+
+ @media (max-width: 576px) 
+ {
+
+     .small-device-short .sent1 .p1 {
+        font-size: 27px;
+        width: 250px;
+        margin-top: 50px;
+           }
+    
+     .small-device-short .sent2 .p2{
+       width: 300px;
+       font-size: 20px ;
+     }
+     .small-device-left {
+      text-align: left;
+     }
+     
+     .iconsWrapper{
+      display: grid;
+       }
+
+     .item1 {
+      order:2;
+     }
+
+     .item2 {
+      order:1;
+     }
+      
+     .item3 {
+      order:3;
+     }
+     
+     }
+   
+
+ 
+ @media (min-width: 576px) 
+ {
+    .big-device-long .sent1 .p1{
+        width: 280px;
+     }
+ 
+     .big-device-long .sent2 .p2 {
+        width: 350px;
+     }
+
+     .big-device-center{
+      text-align: center !important;
+     }
+
+     .item1{
+      order:1;
+     }
+
+     .item2 {
+      order:2;
+     }
+
+     .item3 {
+      order:3;
+     }
+  
+ }
+
+ 
